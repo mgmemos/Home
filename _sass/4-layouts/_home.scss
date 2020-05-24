@@ -251,9 +251,9 @@
 }
 
 .article {
+  max-height: 200px;
   display: flex;
   margin-bottom: 25px;
-  max-height: 200px;
   &:hover {
     .article-image {
       .image-overlay-text {
