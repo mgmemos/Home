@@ -253,6 +253,7 @@
 .article {
   display: flex;
   margin-bottom: 25px;
+  max-height: 200;
   &:hover {
     .article-image {
       .image-overlay-text {
