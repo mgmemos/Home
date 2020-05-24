@@ -251,7 +251,6 @@
 }
 
 .article {
-  max-height: 300px;
   display: flex;
   margin-bottom: 25px;
   &:hover {
@@ -278,6 +277,7 @@
   .article-image {
     position: relative;
     display: block;
+    max-height: 300px;
     margin-bottom: 20px;
     background-size: cover;
     background-position: center;
